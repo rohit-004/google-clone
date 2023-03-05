@@ -1,0 +1,46 @@
+.gifContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(221, 220, 215);
+}
+
+.gifContainer img {
+  margin: 1rem auto;
+  border-radius: 50rem;
+  width: 30rem;
+  background: none;
+}
+
+.gifContainer button {
+  padding: 1rem 2rem;
+  font-weight: bolder;
+  font-size: 1.8rem;
+  border-radius: 2rem;
+  border: none;
+  text-align: center;
+}
+
+.note {
+  font-weight: bolder;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .gifContainer img {
+    width: 15rem;
+  }
+
+  .note {
+    max-width: 80vw;
+    font-size: 1rem;
+  }
+
+  .gifContainer button {
+    font-size: 1rem;
+  }
+}
