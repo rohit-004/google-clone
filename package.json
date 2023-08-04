@@ -1,5 +1,6 @@
 {
   "name": "google-clone",
+  "homepage": "https://rohit-004.github.io/google-clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +11,7 @@
     "axios": "^0.25.0",
     "classnames": "^2.3.1",
     "dotenv": "^14.3.2",
+    "gh-pages": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-draggable": "^4.4.4",
@@ -21,6 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
