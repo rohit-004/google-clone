@@ -10,18 +10,18 @@ import {
 const Footer = () => {
   return (
     <div className={classes.footer}>
-      <div className={classes.madeby}>Made With ❤️ By Ayush Kumar</div>
+      <div className={classes.madeby}>Made By Rohit Kandari</div>
       <div className={classes.links}>
-        <a href="https://www.linkedin.com/in/-ayush-kumar-/">
+        <a href="https://www.linkedin.com/in/rohit-kandari-899500188/">
           <SiLinkedin />
         </a>
-        <a href="https://auth.geeksforgeeks.org/user/ayush2000mickey/practice/">
+        <a href="https://auth.geeksforgeeks.org/user/rohitkandari1977/practice">
           <SiGeeksforgeeks />
         </a>
-        <a href="https://leetcode.com/akmickey/">
+        <a href="https://leetcode.com/NewT004/">
           <SiLeetcode />
         </a>
-        <a href="https://github.com/ayush2000mickey">
+        <a href="https://github.com/rohit-004">
           <SiGithub />
         </a>
       </div>
