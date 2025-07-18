@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Google Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple Google search clone built with React.
 
-## Available Scripts
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://www.javascript.com/)
+[![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)](https://react.dev/)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Description](#description)
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project is a Google search clone built using React. It aims to replicate the core functionality and user interface of Google's search engine.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Search Functionality**: Allows users to enter a search query and view relevant results.
+- **Responsive Design**: Provides a seamless experience across various devices.
+- **React Components**: Built using reusable React components for maintainability and scalability.
+- **Axios Integration**: Uses Axios for making HTTP requests to fetch search results.
+- **Speech Recognition**: Implements speech recognition for voice-based search.
+- **Loading Skeleton**: Uses react-loading-skeleton to display a loading state while fetching search results.
 
-### `npm run build`
+## Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can view a live demo of the project here: [https://google-clone-nine-lyart.vercel.app/](https://google-clone-nine-lyart.vercel.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Follow these steps to set up the project locally:
 
-### `npm run eject`
+1.  **Clone the repository:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    git clone https://github.com/rohit-004/google-clone.git
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2.  **Navigate to the project directory:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    cd google-clone
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3.  **Install dependencies:**
 
-## Learn More
+    ```bash
+    npm install
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1.  **Start the development server:**
 
-### Code Splitting
+    ```bash
+    npm start
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2.  **Open the application in your browser:**
 
-### Analyzing the Bundle Size
+    Visit `http://localhost:3000` to view the Google Clone application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Technologies Used
 
-### Making a Progressive Web App
+-   [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+-   [Axios](https://axios-http.com/): A promise-based HTTP client for making API requests.
+-   [Ant Design](https://ant.design/): A UI framework for React.
+-   [React Router DOM](https://reactrouter.com/): For handling navigation in the React application.
+-   [React Icons](https://react-icons.github.io/react-icons): Include popular icons in your React projects easily.
+-   [React Speech Recognition](https://github.com/JamesBrill/react-speech-recognition): A hook for adding speech recognition to your React apps.
+-   [React Loading Skeleton](https://github.com/dvtng/react-loading-skeleton): Provides a skeleton component to indicate loading state.
+-   [dotenv](https://www.npmjs.com/package/dotenv): Loads environment variables from a .env file.
+-   [Classnames](https://www.npmjs.com/package/classnames): A simple JavaScript utility for conditionally joining classNames together.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+Contributions are welcome! Here's how you can contribute:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix.
+3.  Make your changes and ensure they are well-tested.
+4.  Submit a pull request with a clear description of your changes.
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
